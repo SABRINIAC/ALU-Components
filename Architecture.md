@@ -20,6 +20,7 @@ XRA + XRI: Bitwise XOR the argument with the accumulator \
 ORA + ORI: Bitwise OR the argument with the accumulator \
 CMP + CPI: Accumulator minus the argument, but only changes flags \
 
+
 | Circuits Needed
 
 RLC: Accumulator << 1 ; Both the LSB and the Carry flag become old MSB \
