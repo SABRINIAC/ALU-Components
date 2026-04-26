@@ -33,7 +33,7 @@ CMA: Bitwise NOT on the current Accumulator ; Accumulator = !Accumulator \
 CMC: Invert the carry flag | Don't include in the ALU? We can just modify the flag register? \
 
 
-Adder; For INR, ADD, ADI, ADC, and ACI \
+~Adder; For INR, ADD, ADI, ADC, and ACI~ \
 Subtractor; For DCR, SUB, SUI, SBB, SBI, CMP, and CPI \
 Bitwise AND; For ANA, and ANI \
 Bitwise XOR; For XRA, and XRI \
