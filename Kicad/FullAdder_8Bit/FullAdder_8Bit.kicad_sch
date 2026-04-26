@@ -9760,7 +9760,7 @@
 	)
 	(rectangle
 		(start 15.24 157.48)
-		(end 64.77 195.58)
+		(end 67.31 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -10671,6 +10671,28 @@
 			)
 		)
 	)
+	(global_label "CarryIn_AdderBit0"
+		(shape input)
+		(at 46.99 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0993105f-493f-4d7d-8bea-9c26ffd8b730")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.727 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Out_Bit0"
 		(shape input)
 		(at 312.42 31.75 0)
@@ -10953,28 +10975,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CarryIn_AdderBit0"
-		(shape input)
-		(at 39.37 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32293d36-cfae-49d5-86c0-709ba648dc87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.633 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11564,6 +11564,28 @@
 		(uuid "7d3046f5-1c15-4954-940e-4765c93369ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 384.8486 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Carry Flag"
+		(shape input)
+		(at 39.37 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f9b0f5c-d0a2-43bc-83e7-168fa39ee0b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.4064 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
