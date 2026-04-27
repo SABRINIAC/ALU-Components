@@ -37,4 +37,4 @@ CMC: Invert the carry flag | Don't include in the ALU? We can just modify the fl
 ~Subtractor; For DCR, SUB, SUI, SBB, SBI, CMP, and CPI~ \
 ~Bitwise AND; For ANA, and ANI~ \
 Bitwise XOR; For XRA, and XRI \
-Bitwise OR; For ORA, and ORI \
+~Bitwise OR; For ORA, and ORI~ \
