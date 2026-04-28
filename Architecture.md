@@ -23,18 +23,22 @@ CMP + CPI: Accumulator minus the argument, but only changes flags \
 
 | Circuits Needed
 
-RLC: Accumulator << 1 ; Both the LSB and the Carry flag become old MSB \
-RAL: Accumulator << 1 ; Carry flag becomes the old MSB ; LSB becomes the old Carry flag \
 DAA: \
 STC: Sets the carry flag to `1` | Don't include in the ALU? We can just modify the flag register? \
-RRC: Accumulator >> 1 ; Both the MSB and Carry flag become the old LSB \
-RAR: Accumulator >> 1 ; Carry flag becomes the old LSB ; MSB becomes the old carry flag \
 CMA: Bitwise NOT on the current Accumulator ; Accumulator = !Accumulator \
 CMC: Invert the carry flag | Don't include in the ALU? We can just modify the flag register? \
 
+RLC: Accumulator << 1 ; Both the LSB and the Carry flag become old MSB \
+RAL: Accumulator << 1 ; Carry flag becomes the old MSB ; LSB becomes the old Carry flag \
+RRC: Accumulator >> 1 ; Both the MSB and Carry flag become the old LSB \
+RAR: Accumulator >> 1 ; Carry flag becomes the old LSB ; MSB becomes the old carry flag \
 
 ~Adder; For INR, ADD, ADI, ADC, and ACI~ \
 ~Subtractor; For DCR, SUB, SUI, SBB, SBI, CMP, and CPI~ \
 ~Bitwise AND; For ANA, and ANI~ \
 ~Bitwise XOR; For XRA, and XRI~ \
 ~Bitwise OR; For ORA, and ORI~ \
+Bitwise NOT; For CMA \
+Rotate Right; For RRC, and RAR \
+Rotate Left; for RLC, and RAL \
+
