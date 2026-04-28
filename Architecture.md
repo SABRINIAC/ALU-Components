@@ -38,7 +38,7 @@ RAR: Accumulator >> 1 ; Carry flag becomes the old LSB ; MSB becomes the old car
 ~Bitwise AND; For ANA, and ANI~ \
 ~Bitwise XOR; For XRA, and XRI~ \
 ~Bitwise OR; For ORA, and ORI~ \
-Bitwise NOT; For CMA \
+~Bitwise NOT; For CMA~ \
 Rotate Right; For RRC, and RAR \
 Rotate Left; for RLC, and RAL \
 
