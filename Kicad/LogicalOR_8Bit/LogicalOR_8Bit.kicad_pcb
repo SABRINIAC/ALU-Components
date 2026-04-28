@@ -19278,6 +19278,18 @@
 		(layer "Edge.Cuts")
 		(uuid "90374122-56c9-40c1-a8de-51fced4769b8")
 	)
+	(gr_text "GND"
+		(at 51.37 142.71 0)
+		(layer "F.SilkS")
+		(uuid "030a0305-4427-4ccb-939a-4d510e775da2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Bit 5"
 		(at 77.95 121.4 0)
 		(layer "F.SilkS")
@@ -19326,6 +19338,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "| A0-7 |"
+		(at 52.05 96.19 -90)
+		(layer "F.SilkS")
+		(uuid "31bf0cdc-9d98-4922-8834-c32ffd9382be")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.45)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "| B0-7 |"
+		(at 52.03 116.57 -90)
+		(layer "F.SilkS")
+		(uuid "3231ffb6-b8ac-44d1-81da-1252328cfa82")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.45)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Bit 7"
 		(at 78.325 147.1 0)
 		(layer "F.SilkS")
@@ -19351,7 +19387,7 @@
 		)
 	)
 	(gr_text "Bitwise OR Module"
-		(at 53.175 161.8 0)
+		(at 56.19 162.42 0)
 		(layer "F.SilkS")
 		(uuid "95efff2f-c72b-4994-996a-b2e8f253d902")
 		(effects
@@ -19378,6 +19414,30 @@
 		(at 64.45 147.1 0)
 		(layer "F.SilkS")
 		(uuid "a40eed8e-ce56-4645-90a5-4753375a9e1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "|OUT0-7|"
+		(at 51.81 141.74 -90)
+		(layer "F.SilkS")
+		(uuid "a7293334-66f3-48b6-90fd-06cca1de1a0c")
+		(effects
+			(font
+				(size 2.9 2.9)
+				(thickness 0.435)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 51.52 140.16 0)
+		(layer "F.SilkS")
+		(uuid "b0b7cde3-128f-45ed-a9d1-337f33a47b59")
 		(effects
 			(font
 				(size 1 1)
