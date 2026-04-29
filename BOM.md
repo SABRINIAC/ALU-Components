@@ -58,3 +58,9 @@ Rotate Left
 - 1x NOT PCB
 - 1x Rotate Right PCB
 - 1x Rotate Left PCB
+
+**PCBs** \
+From JLCPCB
+- $2 for the first PCB, then $4 per PCB after that -> $30
+- Shipping: $3.30 fro the first, ~$1.30 to add 1 more PCB to that same shipment -> 3.30 + 7 * (1.30) = $12.4
+- Or just $15.09 for shipping if I order them at the same time
