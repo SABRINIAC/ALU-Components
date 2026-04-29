@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PinHeader_1x26_P2.54mm_Horizontal,1,Conn_01x26_Pin,
+"Q1, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q2, Q20, Q21, Q22, Q23, Q24, Q3, Q4, Q5, Q6, Q7, Q8, Q9",TO-92,24,NPN,
+"R1, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R2, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R3, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R4, R40, R5, R6, R7, R8, R9",0603,40,1kΩ,
