@@ -14,14 +14,23 @@ I don't think another project will get even close to implementing that many inst
 Also, making a computer out of pure transistors sounds really cool! Getting to learn how to make logic gates with them was fun, but I don't think I've fully committed how they precisely work to my brain yet... maybe later on in this project.
 
 | Pictures
+
 ![Adder](./images/add_pcb.png)
+
 ![Subtractor](./images/sub_pcb.png)
-![AND](./images/add_pcb.png)
+
+![AND](./images/and_pcb.png)
+
 ![NOT](./images/not_pcb.png)
+
 ![OR](./images/or_pcb.png)
+
 ![XOR](./images/xor_pcb.png)
+
 ![Rot. Left](./images/rot_left_pcb.png)
+
 ![Rot. Right](./images/rot_right_pcb.png)
+
 
 
 | BOM + Quantity
