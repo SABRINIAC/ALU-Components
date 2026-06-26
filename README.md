@@ -59,4 +59,4 @@ You can see a greater breakdown in BOM.md, but here the table breakdown
 ![OR](./images/built/or.jpg)
 ![NOT](./images/built/not.jpg)
 ![ROR](./images/built/ror.jpg)
-![ROL](./images/built/rol.jpg)
+![ROL](./images/built/rol.png)
