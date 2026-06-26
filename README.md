@@ -49,3 +49,14 @@ You can see a greater breakdown in BOM.md, but here the table breakdown
 | NOT PCB | 1 |
 | Rotate Right PCB | 1 |
 | Rotate Left PCB | 1 |
+
+
+# Built Modules
+![Add](./images/built/add.jpg)
+![Sub](./images/built/sub.jpg)
+![AND](./images/built/and.jpg)
+![XOR](./images/built/xor.jpg)
+![OR](./images/built/or.jpg)
+![NOT](./images/built/not.jpg)
+![ROR](./images/built/ror.jpg)
+![ROL](./images/built/rol.jpg)
